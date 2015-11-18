@@ -71,8 +71,7 @@ import aQute.bnd.annotation.headers.ProvideCapability;
     @StringAttribute(attributeId = TestRunnerConstants.SERVICE_PROPERTY_TESTRUNNER_ENGINE_TYPE,
         defaultValue = "junit4"),
     @StringAttribute(attributeId = TestRunnerConstants.SERVICE_PROPERTY_TEST_ID,
-        defaultValue = "FormAuthenticationServletTest")
-})
+        defaultValue = "FormAuthenticationServletTest") })
 @Service(value = FormAuthenticationServletTestComponent.class)
 public class FormAuthenticationServletTestComponent {
 
